@@ -67,3 +67,18 @@
   
   })(jQuery); // End of use strict
   
+  function displayImperial() {
+  var x = document.getElementById("myDiv");
+  var y = document.getElementById("metric");
+  x.style.display = "block";
+  y.style.display = "none";
+  }
+  
+  function displayMetric() {
+  var x = document.getElementById("metric");
+  var y = document.getElementById("myDiv");
+    x.style.display = "block";
+	y.style.display = "none";
+  }
+  
+  
