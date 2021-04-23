@@ -6,7 +6,6 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Freelancer - Start Bootstrap Theme</title>
-	<script src="javascript/accessSecureAPI.js"></script>
     <!-- Favicon-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -51,20 +50,34 @@
             <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">My Account</p>
+        <p class="masthead-subheading font-weight-light mb-0">Sign in to enter your account details</p>
     </div>
 </header>
 
+<br>
+<div class="container">
+	<div class="row">
+	<div class="col">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        
+    </div>
+	</div>
+	<div class="col">
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+	</div>
+	</div>
+</div>
 	
 <br>
-<br>
-
-
-<button onclick="logout()" class="btn btn-primary">Log Out</button>
-<!--<script src="javascript/login.js"></script>-->
+<br>	
+<button onclick="login2()" class="btn btn-primary">Continue</button>
 <br>
 <br>
-<a class="dropdown-item" href="signUp.html">New around here? Sign up</a>
 <br>	
 
 
@@ -96,13 +109,6 @@
 <script src="/__/firebase/8.3.0/firebase-firestore.js"></script>
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js?useEmulator=true"></script>
-
-
-<script src="javascript/age.js"></script>
-
-<script src="javascript/survey.js"></script>
-<script src="javascript/accessSecureAPI.js"></script>
-<script>getSecureAPI()</script>
-<h1 id="response"></h1>
+<script src="javascript/login2.js"></script>
 </body>
 </html>

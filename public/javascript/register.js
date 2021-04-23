@@ -21,6 +21,7 @@ function register()
         .then((userCredential) => {
             // Signed in
            var user = userCredential.user;
+		   window.location.href = "/login2.html"
            console.log(user);
             // ...
         })
@@ -33,7 +34,7 @@ function register()
 
 
 
-function login()
+/*function login()
 {
     let email = document.getElementById('exampleInputEmail1').value
     let password = document.getElementById('exampleInputPassword1').value
@@ -59,7 +60,7 @@ function login()
             // Signed in
             var user = userCredential.user;
             // If successful redirect to a secure page
-            window.location.href = "/legs.html"
+			window.location.href = "/survey.html"
             console.log(user);
             // ...
         })
@@ -68,4 +69,4 @@ function login()
             var errorMessage = error.message;
             console.log(errorCode, errorMessage);
         });
-}
+}*/

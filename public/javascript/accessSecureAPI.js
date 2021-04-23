@@ -8,18 +8,35 @@ function getSecureAPI(){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
+				console.log("if statement")
                 response.innerHTML = xhr.responseText;
-            }
-        } else {
-            response.innerHTML = "Unauthorized to view this content";
-			//window.location.href = "/logIn.html"
+            } else {
+            //response.innerHTML = "Please login to view your account details";
+			console.log("else statement")
+			response.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
+			}
         }
     };
     // Set the Authorization header
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
 }
+
+function logout(){
+
+firebase.auth().signOut().then(() => {
+    console.log("Sign out successful");
+    // Reset cookie
+    document.cookie = "accessToken= ";
+    // Redirect to the home page
+    window.location.href = "/index.html"
+    // Sign-out successful.
+}).catch((error) => {
+    // An error happened.
+});
+}
+
 
 // W3C Schools
 function getCookie(cname) {

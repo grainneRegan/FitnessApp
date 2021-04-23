@@ -7,7 +7,7 @@
 	//xhr.open('GET', 'https://us-central1-ct216app.cloudfunctions.net/getcomments');
 	//}-->
 	
-    function login(){
+    function login2(){
 		
 		let email = document.getElementById('exampleInputEmail1').value
 		let password = document.getElementById('exampleInputPassword1').value
@@ -33,7 +33,7 @@
 				// Signed in
 				var user = userCredential.user;
 				// If successful redirect to a secure page
-				window.location.href = "/index.html"
+				window.location.href = "/survey.html"
 				document.cookie = "accessToken=" + user.za;
 				document.cookie = "uid=" + user.uid;
 				console.log(user);
@@ -45,33 +45,3 @@
 				console.log(errorCode, errorMessage);
 			});
 	}
-	
-
-	function logout(){
-		console.log("Called logout")
-	firebase.auth().signOut().then(() => {
-		console.log("logout succesful")
-	  // Sign-out successful.
-	}).catch((error) => {
-		console.log("error")
-	  // An error happened.
-	});
-	}
-	
-    /*firebase.auth().signInWithEmailAndPassword("test@gmail.com", "test123")
-        .then((userCredential) => {
-			console.log(userCredential)
-            // Signed in
-            var user = userCredential.user;
-            // If successful redirect to a secure page
-            window.location.href = "/legs.html"
-            console.log(user);
-            // ...
-        })
-        .catch((error) => {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            console.log(errorCode, errorMessage);
-        });
-}*/
-
