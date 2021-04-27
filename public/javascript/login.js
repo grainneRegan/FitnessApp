@@ -51,6 +51,7 @@
 		console.log("Called logout")
 	firebase.auth().signOut().then(() => {
 		console.log("logout succesful")
+		window.location.href = "/login2.html"
 	  // Sign-out successful.
 	}).catch((error) => {
 		console.log("error")

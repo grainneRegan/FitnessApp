@@ -6,7 +6,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Freelancer - Start Bootstrap Theme</title>
-	<script src="javascript/accessSecureAPI.js"></script>
+	<script src="javascript/age.js"></script>
+	<script src="javascript/firstName.js"></script>
     <!-- Favicon-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -51,7 +52,7 @@
             <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">My Account</p>
+        <p class="masthead-subheading font-weight-light mb-0">My Account Test</p>
     </div>
 </header>
 
@@ -97,12 +98,132 @@
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js?useEmulator=true"></script>
 
-
 <script src="javascript/age.js"></script>
+<script src="javascript/firstName.js"></script>
+<script src="javascript/lastName.js"></script>
+<script src="javascript/gender.js"></script>
+<script src="javascript/goal.js"></script>
+<script src="javascript/activityLevel.js"></script>
+<script src="javascript/height.js"></script>
+<script src="javascript/weight.js"></script>
+<script src="javascript/inches.js"></script>
 
-<script src="javascript/survey.js"></script>
-<script src="javascript/accessSecureAPI.js"></script>
-<script>getSecureAPI()</script>
-<h1 id="response"></h1>
+<script>getAge()</script>
+
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Age: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="response"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+<script>getFirstName()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">First Name: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseFirst"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+<script>getLastName()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Last Name: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseSecond"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+<script>getHeight()</script>
+<script>getInches()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Height: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseHeight"></h1>
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseInches"></h1>
+</div>
+</div>
+
+<script>getWeight()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Weight: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseWeight"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+<script>getGender()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Gender: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseGender"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+
+<script>getActivityLevel()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Activity Level: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseActivity"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+<script>getGoal()</script>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<h1 style="color:#ffffff">Goal: </h1> 
+</div>
+<div class="col">
+<h1 style="color:#ffffff" id="responseGoal"></h1>
+</div>
+<div class="col">
+</div>
+</div>
+
+
 </body>
 </html>

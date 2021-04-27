@@ -396,8 +396,11 @@
               <h4>Limitations of BMI</h4>
               <p class="aboutbmi">BMI only indicates whether a person is underweight or overweight, and should not be treated as a diagnostic. BMI doesn’t account for age, gender, ethnicity or muscle mass in individual however it can help identify areas where potential issues may arise. The higher the BMI, the higher the risk of different diseases such as diabetes, arthritis and high blood pressure. However BMI does not measure overall health or indicate the presence of any such disease. It is just a measure of size. It is not always a good indication of body fatness and further tests should be done before taking action.</p>
               <br>
-              <button type="button" class="btn btn-primary btn-lg btn-block">Calculate My BMI</button>
-
+			  
+              <button type="button" onclick="getWeight(checkUnits,getHeight,getInches,calculateBMI)" class="btn btn-primary btn-lg btn-block">Calculate My BMI</button>
+			  <h1 id="bmi"></h1>
+			  </script>
+			  
             </div>
           </div>
         </div>
@@ -486,6 +489,6 @@
 <script src="assets/mail/contact_me.js"></script>
 <!-- Core theme JS-->
 <script src="javascript/scripts.js"></script>
-
+<script src="javascript/calculator.js"></script>
 </body>
 </html>
