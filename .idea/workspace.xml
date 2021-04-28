@@ -20,45 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Lunges-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Tortilla-Pizza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/beet-hummus-crispy-chickpeas-subs-b705a73.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bicepCurl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bsc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/carrotcake.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fly.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/gobletSquat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/gs2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hipthrust.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ketoBrownies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ketooats.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/latraise.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/loadedCaul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/overnightOats.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plank.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/press.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pullup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/row.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/splitsquat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/squat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/straight-leg-raise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sub.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tpizza.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Arms.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Arms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Core.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Core.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/carb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/keto.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/keto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/legs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/legs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lowcal.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lowcal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lowcarb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lowcarb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/protein.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vegan.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vegetarian.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegetarian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
