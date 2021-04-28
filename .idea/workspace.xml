@@ -20,7 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bcaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bcaas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/creatine.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/creatine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/digEnz.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/digEnz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eaas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fishoil.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/fishoil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lglut.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lglut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/logIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logInOriginal.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/logInOriginal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/maltodex.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/maltodex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/myAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/myAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pre.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/protein.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/proteinsupp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/proteinsupp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +91,7 @@
       <workItem from="1617302797407" duration="5353000" />
       <workItem from="1617729991395" duration="6008000" />
       <workItem from="1618675368600" duration="8828000" />
-      <workItem from="1619167355110" duration="12879000" />
+      <workItem from="1619167355110" duration="15736000" />
     </task>
     <servers />
   </component>
