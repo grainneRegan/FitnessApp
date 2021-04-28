@@ -1,9 +1,7 @@
 
 function getGoal(){
     var xhr = new XMLHttpRequest();
-	//http://localhost:5001/fitnessapp-7a208/us-central1/authorizedendpoint
 	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getGoal');
-    //xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/authorizedendpoint');
 
 // Track the state changes of the request.
     xhr.onreadystatechange = function () {
@@ -11,15 +9,9 @@ function getGoal(){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				//let result = xhr.responseText;
-				//console.log("changing format")
-				console.log("formatted")
 				console.log(responseGoal)
-                responseGoal.innerHTML = xhr.responseText;
+                responseGoal.innerHTML = "Goal: "+xhr.responseText;
             } else {
-            //response.innerHTML = "Please login to view your account details";
-			console.log("else statement")
 			responseGoal.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}

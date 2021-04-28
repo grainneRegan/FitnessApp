@@ -7,18 +7,15 @@ function postWeight(){
 		var DONE = 4; // readyState 4 means the request is done.
 		var OK = 200; // status 200 is a successful return.
 		if (xhr.readyState === DONE) {
-		if (xhr.status === OK) {
-			//getAge(); // 'Call get comments to retrieve the latest'
-		} else {
-			console.log('Error: ' + xhr.status); // An error occurred during the request.
+			if (xhr.status === OK) {
+				
+			} else {
+				console.log('Error: ' + xhr.status); // An error occurred during the request.
+			}
 		}
-	}
-	
-	
 	};
 	
 	if(document.getElementById('flexRadioDefault1').checked == true){
-		
 		xhr.send(JSON.stringify(
 	
 		{"Weight lbs": document.getElementById('exampleInputWeight').value, "uid": getCookie('uid')}

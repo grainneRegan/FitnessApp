@@ -4,13 +4,6 @@ const cors = require('cors')({origin: true});
 
 admin.initializeApp();
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-//exports.helloWorld = functions.https.onRequest((request, response) => {
- //functions.logger.info("Hello logs!", {structuredData: true});
-//response.send("Hello from Firebase!");
-//});
 exports.postAge=functions.https.onRequest((request,response)=>{
 	cors(request, response, () => {
 	return admin.firestore().collection('age').add(request.body).then(()=>{
@@ -20,26 +13,7 @@ exports.postAge=functions.https.onRequest((request,response)=>{
 });
 
 exports.getAge = functions.https.onRequest((request,response)=>{
-	/*cors(request, response, () => {
-	let myData = []
-	return admin.firestore().collection('age').get().then((snapshot)=>{
-		if(snapshot.empty){
-			console.log('No matching documents.');
-			response.send('No data in database');
-			return;
-		}
-		
-		snapshot.forEach(doc => {
-			myData.push(doc.data());
-	});
 	
-		response.send(myData);
-		
-	})
-});	
-});	*/
-// 1. Receive comment data in here from user POST request
-    // 2. Connect to our Firestore database
     cors(request, response, () => {
         console.log('Check if request is authorized with Firebase ID token');
         if ((!request.headers.authorization || !request.headers.authorization.startsWith('Bearer '))) {
@@ -75,12 +49,7 @@ exports.getAge = functions.https.onRequest((request,response)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myAge = doc.get('Age');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -140,12 +109,7 @@ exports.getFirstName = functions.https.onRequest((request,responseFirst)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myFirstName = doc.get('First Name');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -205,12 +169,7 @@ exports.getLastName = functions.https.onRequest((request,responseSecond)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myLastName = doc.get('Last Name');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -270,12 +229,7 @@ exports.getGender = functions.https.onRequest((request,responseGender)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myGender = doc.get('Gender');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -335,12 +289,7 @@ exports.getActivityLevel = functions.https.onRequest((request,responseActivity)=
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myActivity = doc.get('ActivityLevel');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -400,12 +349,7 @@ exports.getGoal = functions.https.onRequest((request,responseGoal)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myGoal = doc.get('Goal');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -465,12 +409,7 @@ exports.getHeight = functions.https.onRequest((request,responseHeight)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myHeight = doc.get('Post Height','Post Inches');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -522,12 +461,7 @@ exports.getInches = functions.https.onRequest((request,responseInches)=>{
 
                     snapshot.forEach(doc => {
 						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
 						myInches = doc.get('Post Inches');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -592,11 +526,6 @@ exports.getWeight = functions.https.onRequest((request,responseWeight)=>{
 						} else {
 							myWeight = doc.get('Weight lbs');
 						}
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
                     });
 
                     // 2. Send data back to client
@@ -607,66 +536,6 @@ exports.getWeight = functions.https.onRequest((request,responseWeight)=>{
         }   catch (error) {
             console.error('Error while verifying Firebase ID token:', error);
             responseWeight.status(403).send('Unauthorized');
-            return;
-        }
-    });
-});
-
-
-exports.authorizedendpoint = functions.https.onRequest((request, response) => {
-    // 1. Receive comment data in here from user POST request
-    // 2. Connect to our Firestore database
-    cors(request, response, () => {
-        console.log('Check if request is authorized with Firebase ID token');
-        if ((!request.headers.authorization || !request.headers.authorization.startsWith('Bearer '))) {
-            console.error('No Firebase ID token was passed as a Bearer token in the Authorization header.',
-                'Make sure you authorize your request by providing the following HTTP header:',
-                'Authorization: Bearer <Firebase ID Token>');
-            response.status(403).send('Unauthorized');
-            return;
-        }
-        let idToken;
-        if (request.headers.authorization && request.headers.authorization.startsWith('Bearer ')) {
-            console.log('Found "Authorization" header');
-            // Read the ID Token from the Authorization header.
-            idToken = request.headers.authorization.split('Bearer ')[1];
-        } else {
-            // No cookie
-            response.status(403).send('Unauthorized');
-            return;
-        }
-
-        try {
-            admin.auth().verifyIdToken(idToken).then((token) => {
-                console.log('ID Token correctly decoded', token);
-                // Use token.uid to get documents belonging to a user
-                let myAge;
-                admin.firestore().collection('age').where('uid', '==', token.uid).get().then((snapshot) => {
-
-                    if (snapshot.empty) {
-                        console.log('No matching documents.');
-                        response.send('No data ');
-                        return;
-                    }
-
-                    snapshot.forEach(doc => {
-						console.log('info doc:', doc);
-                        //let docObj = {};
-                        //docObj.id = doc.id;
-                        //myAge.push(Object.assign(docObj, doc.data()));
-						myAge = doc.get('Age');
-						//let result = myAge.map(({Age})=>Age)
-						//myAge.push(doc.data());
-                    });
-
-                    // 2. Send data back to client
-					console.log(myAge);
-                    response.send(myAge);
-                })
-            });
-        }   catch (error) {
-            console.error('Error while verifying Firebase ID token:', error);
-            response.status(403).send('Unauthorized');
             return;
         }
     });

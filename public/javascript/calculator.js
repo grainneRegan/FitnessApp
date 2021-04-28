@@ -1,33 +1,21 @@
 
-//var weight;
 var height;
 var bmr;
-//var tdee;
-//var totalCalories;
-//var totalProtein;
-//var totalFats;
-//var totalCarbs;
-//var shoppingList[];
 
 function calculateBMI(units,weight,height,inches) {
-	
 	
 	console.log(units)
 	console.log(weight)
 	console.log(height)
 	console.log(inches)
 	
-	
 	if(units=="imperial"){
-		console.log("reached if statement")
 		weight = weight * 0.4535923;
-		
 		// result in kg
 	}
 	
 	if(units=="imperial"){
 		height = height*0.3048+(inches*0.0254)
-		// feet and inches converted to feet as a decimal in html
 		console.log(height)
 		// result in metres
 	} else if(units=="metric"){
@@ -36,9 +24,8 @@ function calculateBMI(units,weight,height,inches) {
 	}
 	
 	var bmi = weight/(height*height);
-	//return bmi;*/
-	//return weight;
-	document.getElementById("bmi").innerHTML = bmi;
+	bmi = bmi.toFixed(2);
+	document.getElementById("bmi").innerHTML = "Your BMI is: " + bmi;
 }
 
 function getWeight(myCallback,myCallback2,myCallback3,myCallback4){
@@ -50,27 +37,16 @@ function getWeight(myCallback,myCallback2,myCallback3,myCallback4){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback(myCallback2,xhr.responseText,myCallback3,myCallback4)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
+			document.getElementById("bmi").innerHTML = "Please login to calculate your BMI";
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 
@@ -84,16 +60,9 @@ function checkUnits(myCallback2,responseWeight,myCallback3,myCallback4){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("get units")
 				console.log(xhr.responseText)
 				myCallback2(xhr.responseText,responseWeight,myCallback3,myCallback4)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
@@ -111,27 +80,15 @@ function getHeight(units,weight,myCallback3,myCallback4){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback3(units,weight,xhr.responseText,myCallback4)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 function getInches(units,weight,height,myCallback4){
@@ -143,27 +100,15 @@ function getInches(units,weight,height,myCallback4){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback4(units,weight,height,xhr.responseText)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 // W3C Schools
@@ -192,29 +137,17 @@ function getWeight2(myCallback,myCallback2,myCallback3,myCallback4,myCallback5,m
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log("weight",xhr.responseText);
 				myCallback(xhr.responseText,myCallback2,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
+			document.getElementById("bmr").innerHTML = "Please login to calculate your BMR and TDEE";
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
-
 
 
 function checkUnits2(weight,myCallback2,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8){
@@ -226,16 +159,9 @@ function checkUnits2(weight,myCallback2,myCallback3,myCallback4,myCallback5,myCa
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("get units")
 				console.log(xhr.responseText)
 				myCallback2(weight,xhr.responseText,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
@@ -253,27 +179,15 @@ function getHeight2(weight,units,myCallback3,myCallback4,myCallback5,myCallback6
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback3(weight,units,xhr.responseText,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 function getInches2(weight,units,height,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8){
@@ -285,27 +199,15 @@ function getInches2(weight,units,height,myCallback4,myCallback5,myCallback6,myCa
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback4(weight,units,height,xhr.responseText,myCallback5,myCallback6,myCallback7,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 function getAge2(weight,units,height,inches,myCallback5,myCallback6,myCallback7,myCallback8){
@@ -317,27 +219,15 @@ function getAge2(weight,units,height,inches,myCallback5,myCallback6,myCallback7,
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback5(weight,units,height,inches,xhr.responseText,myCallback6,myCallback7,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 function getGender2(weight,units,height,inches,age,myCallback6,myCallback7,myCallback8){
@@ -349,27 +239,15 @@ function getGender2(weight,units,height,inches,age,myCallback6,myCallback7,myCal
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback6(weight,units,height,inches,age,xhr.responseText,myCallback7,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
 function getActivityLevel2(weight,units,height,inches,age,gender,myCallback7,myCallback8){
@@ -381,36 +259,25 @@ function getActivityLevel2(weight,units,height,inches,age,gender,myCallback7,myC
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				console.log("formatted")
 				console.log(xhr.responseText);
 				myCallback7(weight,units,height,inches,age,gender,xhr.responseText,myCallback8)
-				//return xhr.responseText;
-				//return weight;
-				//console.log(responseWeight)
-                //responseWeight.innerHTML = xhr.responseText;
             } else {
-			console.log("else statement")
-			responseWeight.innerHTML=(window.location.href = "/Unauthorized.html")
             console.log('Error: ' + xhr.status); // An error occurred during the request.
 			}
         }
     };
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
-	
-	//return xhr.responseText;
-	//console.log(xhr.responseText)
-	//return xhr.responseText
 }
 
-// calculateBMI must be run before this function
 function calculateBMR(weight,units,height,inches,age,gender,activityLevel,myCallback8){
 	var bmr;
+	
 	console.log(units)
 	console.log(weight)
 	console.log(height)
 	console.log(inches)
+	
 	if(units=="imperial"){
 		console.log("reached if statement")
 		weight = weight * 0.4535923;
@@ -420,21 +287,21 @@ function calculateBMR(weight,units,height,inches,age,gender,activityLevel,myCall
 	
 	if(units=="imperial"){
 		height = height*0.3048+(inches*0.0254)
-		// feet and inches converted to feet as a decimal in html
 		console.log(height)
 		// result in metres
 	} else if(units=="metric"){
 		height =  height/100;
 		// result in metres
 	}
+	
     if(gender == "Male"){
 		bmr = 10*weight + 625*height -5*age +5;
 	} else if(gender == "Female"){
 		bmr = 10*weight + 625*height -5*age -161;
 	}
-	document.getElementById("bmr").innerHTML = bmr;
+	bmr = Math.round(bmr);
+	document.getElementById("bmr").innerHTML = "Your BMR is: " + bmr;
 	myCallback8(activityLevel,bmr)
-	
 }
 
 function calculateTDEE(activityLevel,bmr){
@@ -454,17 +321,6 @@ function calculateTDEE(activityLevel,bmr){
 	if(activityLevel == "Very Active (excercise twice a day)"){ // excercise twice a day
 		tdee = bmr*1.9;
 	}
-	document.getElementById("tdee").innerHTML = tdee;
+	tdee = Math.round(tdee);
+	document.getElementById("tdee").innerHTML = "Your TDEE is: " + tdee;
 }
-
-/*function shoppingList(name, quanity){
-	var item = {name: name, quantity: quantity};
-	array.push(item);
-}
-
-function mealPlan(calories, protein, carbs, fats){
-	totalCalories = totalCalories + calories;
-	totalProtein = totalProtein + protein;
-	totalCarbs = totalCarbs + carbs;
-	totalFats = totalFats + fats;
-}*/

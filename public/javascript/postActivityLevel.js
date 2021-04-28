@@ -8,7 +8,7 @@ function postActivityLevel(){
 		var OK = 200; // status 200 is a successful return.
 		if (xhr.readyState === DONE) {
 		if (xhr.status === OK) {
-			//getAge(); // 'Call get comments to retrieve the latest'
+			
 		} else {
 			console.log('Error: ' + xhr.status); // An error occurred during the request.
 		}

@@ -52,21 +52,14 @@
             <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">My Account Test</p>
+        <p class="masthead-subheading font-weight-light mb-0">My Account</p>
     </div>
 </header>
 
 	
 <br>
 <br>
-
-
-<button onclick="logout()" class="btn btn-primary">Log Out</button>
-<!--<script src="javascript/login.js"></script>-->
-<br>
-<br>
-<a class="dropdown-item" href="signUp.html">New around here? Sign up</a>
-<br>	
+	
 
 
 
@@ -108,122 +101,97 @@
 <script src="javascript/weight.js"></script>
 <script src="javascript/inches.js"></script>
 
-<script>getAge()</script>
-
-<div class="row">
-<div class="col">
-</div>
-<div class="col">
-<h1 style="color:#ffffff">Age: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="response"></h1>
-</div>
-<div class="col">
-</div>
-</div>
 
 <script>getFirstName()</script>
 <div class="row">
-<div class="col">
+<div class="col-3">
 </div>
-<div class="col">
-<h1 style="color:#ffffff">First Name: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseFirst"></h1>
-</div>
-<div class="col">
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseFirst"></h1>
 </div>
 </div>
 
 <script>getLastName()</script>
+<br>
 <div class="row">
-<div class="col">
+<div class="col-3">
 </div>
-<div class="col">
-<h1 style="color:#ffffff">Last Name: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseSecond"></h1>
-</div>
-<div class="col">
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseSecond"></h1>
 </div>
 </div>
 
-<script>getHeight()</script>
-<script>getInches()</script>
+<script>getAge()</script>
+<br>
 <div class="row">
-<div class="col">
+<div class="col-3">
 </div>
-<div class="col">
-<h1 style="color:#ffffff">Height: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseHeight"></h1>
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseInches"></h1>
-</div>
-</div>
-
-<script>getWeight()</script>
-<div class="row">
-<div class="col">
-</div>
-<div class="col">
-<h1 style="color:#ffffff">Weight: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseWeight"></h1>
-</div>
-<div class="col">
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="response"></h1>
 </div>
 </div>
 
 <script>getGender()</script>
+<br>
 <div class="row">
-<div class="col">
+<div class="col-3">
 </div>
-<div class="col">
-<h1 style="color:#ffffff">Gender: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseGender"></h1>
-</div>
-<div class="col">
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseGender"></h1>
 </div>
 </div>
 
-
-<script>getActivityLevel()</script>
+<script>checkUnits(getHeight)</script>
+<script>getInches()</script>
+<br>
 <div class="row">
-<div class="col">
+<div class="col-3">
 </div>
-<div class="col">
-<h1 style="color:#ffffff">Activity Level: </h1> 
+<div class="col-3">
+<h1 style="text-align:left;color:#ffffff" id="responseHeight"></h1>
 </div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseActivity"></h1>
-</div>
-<div class="col">
+<div class="col-3">
+<h1 style="text-align:left;color:#ffffff" id="responseInches"></h1>
 </div>
 </div>
+
+<script>checkUnits(getWeight)</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseWeight"></h1>
+</div>
+</div>
+
 
 <script>getGoal()</script>
+<br>
 <div class="row">
-<div class="col">
+<div class="col-3">
 </div>
-<div class="col">
-<h1 style="color:#ffffff">Goal: </h1> 
-</div>
-<div class="col">
-<h1 style="color:#ffffff" id="responseGoal"></h1>
-</div>
-<div class="col">
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseGoal"></h1>
 </div>
 </div>
 
+<script>getActivityLevel()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseActivity"></h1>
+</div>
+</div>
+<br>
+<br>
 
+<button type="button "onclick="logout()" class="btn btn-primary btn-lg">Log Out</button>
+<!--<script src="javascript/login.js"></script>-->
+<br>
+<br>
+<br>
 </body>
 </html>
