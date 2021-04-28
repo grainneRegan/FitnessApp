@@ -40,7 +40,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="MyAccount.html"><i class="fas fa-user"></i> My Account</a></li>
+        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="myAccount.html"><i class="fas fa-user"></i> My Account</a></li>
 
         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded "href="logIn.html" ><i class="fas fa-user-plus"></i> Log In</a></li>
         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded "href="signUp.html" ><i class="fas fa-user-plus"></i> Sign up</a></li>
@@ -154,7 +154,7 @@
     <!-- About Section Content-->
     <div class="row">
       <div class="col-lg-4 ml-auto"><p class="lead">OneStopFitness is the perfect tool to help you achieve your fitness dreams. Whether your goal is to lose weight, gain muscle or simply improve your health, OneStopFitness has everything you need to kickstart your journey. </p></div>
-      <div class="col-lg-4 mr-auto"><p class="lead">Unlike other websites, we've got everything covered from recipes to supplement recommendations and training exercises. OneStopFitness was designed with the user in mind to make fitness accessible to everyone and provides everything you need to fuel your goals all in one place</p></div>
+      <div class="col-lg-4 mr-auto"><p class="lead">Unlike other websites, we've got everything covered from recipes to supplement recommendations and training exercises. OneStopFitness was designed with the user in mind to make fitness accessible to everyone and provides everything you need to fuel your goals all in one place.</p></div>
     </div>
     <!-- About Section Button-->
     <div class="text-center mt-4">
@@ -345,14 +345,18 @@
             <div class="col-lg-8">
               <!-- Portfolio Modal - Title-->
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Calorie Calculator</h2>
-              <!-- Icon Divider-->
+			  
+			  <h1 id="bmr"></h1>
+			  <br>
+			  <h1 id="tdee"></h1>
+			  <!-- Icon Divider-->
               <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-dumbbell"></i></div>
                 <div class="divider-custom-line"></div>
               </div>
               <!-- Portfolio Modal - Image-->
-<h4>What are calories?</h4>
+			  <h4>What are calories?</h4>
               <p class="aboutbmi">
                 Calories are a measurement of the energy a particular food or drink contains. Our bodies need a sufficient amount of this energy to function efficiently and to properly sustain our lifestyle we need to eat the correct number of calories. Different types of food contain different levels of energy, for example the three macronutrients contain a different number of calories. With fat containing double the number of calories in comparison to carbohydrates or protein. This doesn’t mean it’s not healthy just that it should be eaten in moderation.
               </p>
@@ -367,6 +371,10 @@
               <p class="aboutbmi">
                 This website makes it easy to track your calories throughout the day. Offering a wide variety of meals to choose from no matter your dietary requirements which also display the calories and the macronutrients. Enabling you to make the right choice for your body.
               </p>
+			  <br>
+			  <br>
+			  <button type="button" onclick="getWeight2(checkUnits2,getHeight2,getInches2,getAge2,getGender2,getActivityLevel2,calculateBMR,calculateTDEE)" class="btn btn-primary btn-lg btn-block">Calculate My TDEE</button>
+
             </div>
           </div>
         </div>
@@ -387,7 +395,7 @@
             <div class="col-lg-8">
               <!-- Portfolio Modal - Title-->
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">BMI</h2>
-=              <!-- Icon Divider-->
+             <!-- Icon Divider-->
               <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-dumbbell"></i></div>
@@ -408,8 +416,12 @@
               <h4>Limitations of BMI</h4>
               <p class="aboutbmi">BMI only indicates whether a person is underweight or overweight, and should not be treated as a diagnostic. BMI doesn’t account for age, gender, ethnicity or muscle mass in individual however it can help identify areas where potential issues may arise. The higher the BMI, the higher the risk of different diseases such as diabetes, arthritis and high blood pressure. However BMI does not measure overall health or indicate the presence of any such disease. It is just a measure of size. It is not always a good indication of body fatness and further tests should be done before taking action.</p>
               <br>
-              <button type="button" class="btn btn-primary btn-lg btn-block">Calculate My BMI</button>
-
+			  
+              <button type="button" onclick="getWeight(checkUnits,getHeight,getInches,calculateBMI)" class="btn btn-primary btn-lg btn-block">Calculate My BMI</button>
+			  <br>
+			  <h1 id="bmi"></h1>
+			  </script>
+			  
             </div>
           </div>
         </div>
@@ -437,7 +449,7 @@
                 <div class="divider-custom-line"></div>
               </div>
               <!-- Portfolio Modal - Image-->
-<h4>Protein</h4>
+			  <h4>Protein</h4>
               <p class="aboutbmi">Protein is an important macronutrient that every cell in the body needs. It helps to build and repair cells and body tiddues including the skin, hair, nails, muscles, ligaments, tendons, and bone. Protein is also important for blood clotting, immune system responses, hormones , and enzymes. Protein is 4kCal/g and recommended intake is 1.6-2.5g/kg bodyweight. Good sources of protein are lean meat, fish, poulty, daily products, nuts, legumes and beans.
               </p>
               <br>
@@ -449,6 +461,7 @@
                 Carbohydrates are the main source of energy in the body. They are sugars, starches, and dietry fibers that occur in plant foods and dairy products. Carbohydrates are 4kCal/g. The general recommendation for carbohydrate consumption is 45-65% of total caloric intake. Good sources of carbohydrates include bread, beans, pasta, rice, potatoes, corn, vegetables.
 
               </p>
+
             </div>
           </div>
         </div>
@@ -509,6 +522,6 @@
 <script src="assets/mail/contact_me.js"></script>
 <!-- Core theme JS-->
 <script src="javascript/scripts.js"></script>
-
+<script src="javascript/calculator.js"></script>
 </body>
 </html>

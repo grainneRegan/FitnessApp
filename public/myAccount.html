@@ -6,7 +6,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>OneStopFitness</title>
-	<script src="javascript/accessSecureAPI.js"></script>
+	<script src="javascript/age.js"></script>
+	<script src="javascript/firstName.js"></script>
     <!-- Favicon-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -57,13 +58,8 @@
 
 	
 <br>
-<br>	
-<button onclick="logout()" class="btn btn-primary">Log Out</button>
-<!--<script src="javascript/login.js"></script>-->
 <br>
-<br>
-<a class="dropdown-item" href="signUp.html">New around here? Sign up</a>
-<br>	
+	
 
 
 
@@ -94,9 +90,108 @@
 <script src="/__/firebase/8.3.0/firebase-firestore.js"></script>
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js?useEmulator=true"></script>
-<script src="javascript/survey.js"></script>
-<script src="javascript/logout.js"></script>
-<script>getSecureAPI()</script>
-<h1 id="response"></h1>
+
+<script src="javascript/age.js"></script>
+<script src="javascript/firstName.js"></script>
+<script src="javascript/lastName.js"></script>
+<script src="javascript/gender.js"></script>
+<script src="javascript/goal.js"></script>
+<script src="javascript/activityLevel.js"></script>
+<script src="javascript/height.js"></script>
+<script src="javascript/weight.js"></script>
+<script src="javascript/inches.js"></script>
+
+
+<script>getFirstName()</script>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseFirst"></h1>
+</div>
+</div>
+
+<script>getLastName()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseSecond"></h1>
+</div>
+</div>
+
+<script>getAge()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="response"></h1>
+</div>
+</div>
+
+<script>getGender()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseGender"></h1>
+</div>
+</div>
+
+<script>checkUnits(getHeight)</script>
+<script>getInches()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-3">
+<h1 style="text-align:left;color:#ffffff" id="responseHeight"></h1>
+</div>
+<div class="col-3">
+<h1 style="text-align:left;color:#ffffff" id="responseInches"></h1>
+</div>
+</div>
+
+<script>checkUnits(getWeight)</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseWeight"></h1>
+</div>
+</div>
+
+
+<script>getGoal()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseGoal"></h1>
+</div>
+</div>
+
+<script>getActivityLevel()</script>
+<br>
+<div class="row">
+<div class="col-3">
+</div>
+<div class="col-9">
+<h1 style="text-align:left;color:#ffffff" id="responseActivity"></h1>
+</div>
+</div>
+<br>
+<br>
+
+<button type="button "onclick="logout()" class="btn btn-primary btn-lg">Log Out</button>
+<!--<script src="javascript/login.js"></script>-->
+<br>
+<br>
+<br>
 </body>
 </html>

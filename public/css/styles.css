@@ -10276,3 +10276,8 @@ form .row:first-child .floating-label-form-group {
 .not-visible{
 	visibility: hidden;
 }
+
+.buttonMyAccount{
+	height: 50px;
+	width: 100px;
+}
