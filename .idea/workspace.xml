@@ -20,18 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/bcaas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/creatine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/digEnz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/eaas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fishoil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lglut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/maltodex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/proteinsupp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Lunges-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Tortilla-Pizza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/beet-hummus-crispy-chickpeas-subs-b705a73.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bicepCurl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bsc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/carrotcake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gobletSquat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/gs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hipthrust.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ketoBrownies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ketooats.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/latraise.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/loadedCaul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/overnightOats.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/press.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pullup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/row.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/splitsquat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/squat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/straight-leg-raise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sub.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tpizza.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/creatine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/creatine.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Arms.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Arms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Core.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Core.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/carb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keto.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/keto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/legs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/legs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lowcal.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lowcal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lowcarb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lowcarb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/protein.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vegan.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vegetarian.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegetarian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +77,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oX5PKFwqBVa8qCszZ5s2dftWYO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Nicolesapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Nicolesapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,6 +112,8 @@
       <workItem from="1616873129814" duration="18027000" />
       <workItem from="1617302797407" duration="5353000" />
       <workItem from="1617729991395" duration="6008000" />
+      <workItem from="1618675368600" duration="8828000" />
+      <workItem from="1619167355110" duration="12879000" />
     </task>
     <servers />
   </component>
@@ -97,6 +131,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="159" y="95" key="FileChooserDialogImpl" timestamp="1617038710915">
