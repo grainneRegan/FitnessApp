@@ -1,8 +1,6 @@
 function getSecureAPI(){
     var xhr = new XMLHttpRequest();
-	//http://localhost:5001/fitnessapp-7a208/us-central1/authorizedendpoint
-	xhr.open('GET', 'http://localhost:5001/fitnessapp-7a208/us-central1/authorizedendpoint');
-    //xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/authorizedendpoint');
+    xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/authorizedendpoint');
 
 // Track the state changes of the request.
     xhr.onreadystatechange = function () {
@@ -10,39 +8,18 @@ function getSecureAPI(){
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
             if (xhr.status === OK) {
-				console.log("if statement")
-				//let result = xhr.responseText;
-				//console.log("changing format")
-				console.log("formatted")
-				console.log(response)
                 response.innerHTML = xhr.responseText;
-            } else {
-            //response.innerHTML = "Please login to view your account details";
-			console.log("else statement")
-			response.innerHTML=(window.location.href = "/Unauthorized.html")
+            }
+        } else {
+            response.innerHTML = "Unauthorized to view this content";
+			//window.location.href = "/logIn.html"
             console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
         }
     };
     // Set the Authorization header
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
 }
-
-function logout(){
-
-firebase.auth().signOut().then(() => {
-    console.log("Sign out successful");
-    // Reset cookie
-    document.cookie = "accessToken= ";
-    // Redirect to the home page
-    window.location.href = "/index.html"
-    // Sign-out successful.
-}).catch((error) => {
-    // An error happened.
-});
-}
-
 
 // W3C Schools
 function getCookie(cname) {
