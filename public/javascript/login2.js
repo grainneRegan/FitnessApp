@@ -1,12 +1,4 @@
-//function login()
-//{
-	//if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-		//.open('GET', 'http://localhost:5001/ct216app/us-central1/getcomments');
-	//}
-	//else {
-	//xhr.open('GET', 'https://us-central1-ct216app.cloudfunctions.net/getcomments');
-	//}-->
-	
+
     function login2(){
 		
 		let email = document.getElementById('exampleInputEmail1').value

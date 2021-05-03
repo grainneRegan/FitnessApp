@@ -19,12 +19,6 @@
   <link href="myAccount.html">
   <link href="logIn.html">
   <link href="signUp.html">
-  <link href="nutrition.html">
-  <link href="myAccount.html">
-  <link href="sups.html">
-  <link href="calorieCalc.html">
-  <link href="bmi.html">
-  <link href="shoppingCart.html">
 
 </head>
 
@@ -60,7 +54,7 @@
       <div class="divider-custom-line"></div>
     </div>
     <!-- Masthead Subheading-->
-    <p class="masthead-subheading font-weight-light mb-0">Everything you need to know about training & nutrition in the same place</p>
+    <p class="masthead-subheading font-weight-light mb-0">Everything you need to know about training & nutrition in the one place</p>
   </div>
 </header>
 <!-- Portfolio Section-->
@@ -346,9 +340,7 @@
               <!-- Portfolio Modal - Title-->
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Calorie Calculator</h2>
 			  
-			  <h1 id="bmr"></h1>
-			  <br>
-			  <h1 id="tdee"></h1>
+			  
 			  <!-- Icon Divider-->
               <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -373,8 +365,12 @@
               </p>
 			  <br>
 			  <br>
-			  <button type="button" onclick="getWeight2(checkUnits2,getHeight2,getInches2,getAge2,getGender2,getActivityLevel2,calculateBMR,calculateTDEE)" class="btn btn-primary btn-lg btn-block">Calculate My TDEE</button>
-
+			  <button type="button" onclick="checkUnitsCalories(getUserCalories,calculateBMR,calculateTDEE)" class="btn btn-primary btn-lg btn-block">Calculate My TDEE</button>
+			  <br>
+			  <br>
+			  <h1 id="bmr"></h1>
+			  <br>
+			  <h1 id="tdee"></h1>
             </div>
           </div>
         </div>
@@ -417,7 +413,7 @@
               <p class="aboutbmi">BMI only indicates whether a person is underweight or overweight, and should not be treated as a diagnostic. BMI doesn’t account for age, gender, ethnicity or muscle mass in individual however it can help identify areas where potential issues may arise. The higher the BMI, the higher the risk of different diseases such as diabetes, arthritis and high blood pressure. However BMI does not measure overall health or indicate the presence of any such disease. It is just a measure of size. It is not always a good indication of body fatness and further tests should be done before taking action.</p>
               <br>
 			  
-              <button type="button" onclick="getWeight(checkUnits,getHeight,getInches,calculateBMI)" class="btn btn-primary btn-lg btn-block">Calculate My BMI</button>
+              <button type="button" onclick="checkUnits3(getUser)" class="btn btn-primary btn-lg btn-block">Calculate My BMI</button>
 			  <br>
 			  <h1 id="bmi"></h1>
 			  </script>

@@ -1,12 +1,4 @@
-//function login()
-//{
-	//if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-		//.open('GET', 'http://localhost:5001/ct216app/us-central1/getcomments');
-	//}
-	//else {
-	//xhr.open('GET', 'https://us-central1-ct216app.cloudfunctions.net/getcomments');
-	//}-->
-	
+
     function login(){
 		
 		let email = document.getElementById('exampleInputEmail1').value
@@ -58,21 +50,4 @@
 	  // An error happened.
 	});
 	}
-	
-    /*firebase.auth().signInWithEmailAndPassword("test@gmail.com", "test123")
-        .then((userCredential) => {
-			console.log(userCredential)
-            // Signed in
-            var user = userCredential.user;
-            // If successful redirect to a secure page
-            window.location.href = "/legs.html"
-            console.log(user);
-            // ...
-        })
-        .catch((error) => {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            console.log(errorCode, errorMessage);
-        });
-}*/
 

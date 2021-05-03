@@ -1,6 +1,118 @@
 
-var height;
-var bmr;
+//var height;
+//var bmr;
+
+function getUser(units){
+    var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getUser');
+
+// Track the state changes of the request.
+    xhr.onreadystatechange = function () {
+        var DONE = 4; // readyState 4 means the request is done.
+        var OK = 200; // status 200 is a successful return.
+        if (xhr.readyState === DONE) {
+            if (xhr.status === OK) {
+				var json = JSON.parse(xhr.responseText);
+				var yourHeight = json.PostHeight;
+				var yourWeight = json.Weightlbs;
+				var yourInches = json.PostInches;
+				var yourWeightkg = json.Weightkg;
+				
+				if(units == "imperial"){
+					calculateBMI(units,yourWeight,yourHeight,yourInches);
+				} else if(units == "metric"){
+					calculateBMI(units,yourWeightkg,yourHeight,yourInches);
+				}
+			
+            } else {
+			responseUser.innerHTML=(window.location.href = "/Unauthorized.html")
+            console.log('Error: ' + xhr.status); // An error occurred during the request.
+			}
+        }
+    };
+    // Set the Authorization header
+    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
+    xhr.send(null);
+}
+
+function getUserCalories(units,callback2,mycallback3){
+    var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getUser');
+
+// Track the state changes of the request.
+    xhr.onreadystatechange = function () {
+        var DONE = 4; // readyState 4 means the request is done.
+        var OK = 200; // status 200 is a successful return.
+        if (xhr.readyState === DONE) {
+            if (xhr.status === OK) {
+				var json = JSON.parse(xhr.responseText);
+				var yourData = json.Age;
+				var yourGender = json.Gender;
+				var yourHeight = json.PostHeight;
+				var yourWeight = json.Weightlbs;
+				var yourActivityLevel = json.ActivityLevel;
+				var yourInches = json.PostInches;
+				var yourWeightkg = json.Weightkg;
+				
+				if(units == "imperial"){
+					callback2(yourWeight,units,yourHeight,yourInches,yourData,yourGender,yourActivityLevel,mycallback3);
+				} else if(units == "metric"){
+					callback2(yourWeightkg,units,yourHeight,yourInches,yourData,yourGender,yourActivityLevel,mycallback3);
+				}
+			
+            } else {
+			responseUser.innerHTML=(window.location.href = "/Unauthorized.html")
+            console.log('Error: ' + xhr.status); // An error occurred during the request.
+			}
+        }
+    };
+    // Set the Authorization header
+    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
+    xhr.send(null);
+}
+
+
+function checkUnits3(myCallback){
+    var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
+
+    xhr.onreadystatechange = function () {
+        var DONE = 4; // readyState 4 means the request is done.
+        var OK = 200; // status 200 is a successful return.
+        if (xhr.readyState === DONE) {
+            if (xhr.status === OK) {
+				console.log(xhr.responseText)
+				myCallback(xhr.responseText)
+            } else {
+            console.log('Error: ' + xhr.status); // An error occurred during the request.
+			document.getElementById("bmi").innerHTML = "Please login to calculate your BMI";
+			}
+        }
+    };
+    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
+    xhr.send(null);
+}
+
+function checkUnitsCalories(myCallback,myCallback2,myCallback3){
+    var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
+
+    xhr.onreadystatechange = function () {
+        var DONE = 4; // readyState 4 means the request is done.
+        var OK = 200; // status 200 is a successful return.
+        if (xhr.readyState === DONE) {
+            if (xhr.status === OK) {
+				console.log(xhr.responseText)
+				myCallback(xhr.responseText,myCallback2,myCallback3)
+            } else {
+            console.log('Error: ' + xhr.status); // An error occurred during the request.
+			document.getElementById("bmr").innerHTML = "Please login to calculate your BMR and TDEE";
+			}
+        }
+    };
+    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
+    xhr.send(null);
+}
 
 function calculateBMI(units,weight,height,inches) {
 	
@@ -28,88 +140,7 @@ function calculateBMI(units,weight,height,inches) {
 	document.getElementById("bmi").innerHTML = "Your BMI is: " + bmi;
 }
 
-function getWeight(myCallback,myCallback2,myCallback3,myCallback4){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getWeight');
 
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback(myCallback2,xhr.responseText,myCallback3,myCallback4)
-            } else {
-			document.getElementById("bmi").innerHTML = "Please login to calculate your BMI";
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-
-
-function checkUnits(myCallback2,responseWeight,myCallback3,myCallback4){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText)
-				myCallback2(xhr.responseText,responseWeight,myCallback3,myCallback4)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getHeight(units,weight,myCallback3,myCallback4){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getHeight');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback3(units,weight,xhr.responseText,myCallback4)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getInches(units,weight,height,myCallback4){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getInches');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback4(units,weight,height,xhr.responseText)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
 
 // W3C Schools
 function getCookie(cname) {
@@ -127,150 +158,7 @@ function getCookie(cname) {
     return "";
 }
 
-
-function getWeight2(myCallback,myCallback2,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getWeight');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log("weight",xhr.responseText);
-				myCallback(xhr.responseText,myCallback2,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8)
-            } else {
-			document.getElementById("bmr").innerHTML = "Please login to calculate your BMR and TDEE";
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-
-function checkUnits2(weight,myCallback2,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText)
-				myCallback2(weight,xhr.responseText,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getHeight2(weight,units,myCallback3,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getHeight');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback3(weight,units,xhr.responseText,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getInches2(weight,units,height,myCallback4,myCallback5,myCallback6,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getInches');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback4(weight,units,height,xhr.responseText,myCallback5,myCallback6,myCallback7,myCallback8)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getAge2(weight,units,height,inches,myCallback5,myCallback6,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getAge');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback5(weight,units,height,inches,xhr.responseText,myCallback6,myCallback7,myCallback8)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getGender2(weight,units,height,inches,age,myCallback6,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getGender');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback6(weight,units,height,inches,age,xhr.responseText,myCallback7,myCallback8)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function getActivityLevel2(weight,units,height,inches,age,gender,myCallback7,myCallback8){
-    var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getActivityLevel');
-
-    xhr.onreadystatechange = function () {
-        var DONE = 4; // readyState 4 means the request is done.
-        var OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-				console.log(xhr.responseText);
-				myCallback7(weight,units,height,inches,age,gender,xhr.responseText,myCallback8)
-            } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			}
-        }
-    };
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
-
-function calculateBMR(weight,units,height,inches,age,gender,activityLevel,myCallback8){
+function calculateBMR(weight,units,height,inches,age,gender,activityLevel,myCallback3){
 	var bmr;
 	
 	console.log(units)
@@ -301,7 +189,7 @@ function calculateBMR(weight,units,height,inches,age,gender,activityLevel,myCall
 	}
 	bmr = Math.round(bmr);
 	document.getElementById("bmr").innerHTML = "Your BMR is: " + bmr;
-	myCallback8(activityLevel,bmr)
+	myCallback3(activityLevel,bmr)
 }
 
 function calculateTDEE(activityLevel,bmr){
