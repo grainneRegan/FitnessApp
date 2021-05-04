@@ -1,0 +1,258 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e\" name=\"Default Changelist\" comment=\"changing picture sources\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/firebase.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/firebase.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/functions/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/functions/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/Arms.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/Arms.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/Lunges-2.webp\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/beet-hummus-crispy-chickpeas-subs-b705a73.webp\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/bmi.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/bmi.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/bsc.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/bsc.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/calorieCalc.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/calorieCalc.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/carb.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/carb.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/javascript/reveal.js\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/keto.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/keto.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/latraise.webp\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/legs.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/legs.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/nutrition.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/nutrition.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/protein.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/protein.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/row.webp\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/shoppingCart.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/shoppingCart.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/sups.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/sups.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/vegan.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/vegan.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/vegetarian.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/vegetarian.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/weightlift.webp\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"tsconfig.json\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1oX5PKFwqBVa8qCszZ5s2dftWYO\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"ts.external.directory.path\" value=\"C:\\Program Files\\JetBrains\\WebStorm 2020.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\harry\\Desktop\\Second Year\\Software Engineering I\\OneStopFitness\\functions\" />\r\n      <recent name=\"C:\\Users\\harry\\Desktop\\Second Year\\Software Engineering I\\OneStopFitness\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1613420068871</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1613420068871</updated>\r\n      <workItem from=\"1613420070117\" duration=\"1623000\" />\r\n      <workItem from=\"1616873129814\" duration=\"18027000\" />\r\n      <workItem from=\"1617302797407\" duration=\"5353000\" />\r\n      <workItem from=\"1617729991395\" duration=\"6008000\" />\r\n      <workItem from=\"1618675368600\" duration=\"8828000\" />\r\n      <workItem from=\"1619167355110\" duration=\"15736000\" />\r\n      <workItem from=\"1619701012211\" duration=\"12388000\" />\r\n      <workItem from=\"1619735711700\" duration=\"1748000\" />\r\n      <workItem from=\"1619911918076\" duration=\"466000\" />\r\n      <workItem from=\"1619961433424\" duration=\"14385000\" />\r\n      <workItem from=\"1619994525827\" duration=\"7767000\" />\r\n      <workItem from=\"1620038296015\" duration=\"3253000\" />\r\n      <workItem from=\"1620130068093\" duration=\"5626000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Trying Storage pics and required function in login2.html\">\r\n      <created>1619702549008</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619702549008</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Trying Storage pics and required function in login2.html\">\r\n      <created>1619703025793</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619703025793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"various touch ups\">\r\n      <created>1619730166281</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619730166281</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"removing authentication emulator line\">\r\n      <created>1619730777071</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619730777071</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Trying input patterns in survey.html\">\r\n      <created>1619732265943</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619732265943</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"actionphp gone\">\r\n      <created>1619734075244</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619734075244</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"trying form actions\">\r\n      <created>1619735137641</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619735137641</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"workspace\">\r\n      <created>1619735757939</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619735757939</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"finished survey required, starting hiding myaccount on index.html\">\r\n      <created>1619966885087</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619966885087</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"various fixes\">\r\n      <created>1619992434456</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619992434456</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"various fixes\">\r\n      <created>1619994213127</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619994213127</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"implementing form action = javascript\">\r\n      <created>1619997313586</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619997313586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"finished form actions, implementing vanishing myaccount\">\r\n      <created>1620003238796</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620003238796</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"14\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.History.Properties\">\r\n    <option name=\"COLUMN_ORDER\">\r\n      <list>\r\n        <option value=\"0\" />\r\n        <option value=\"2\" />\r\n        <option value=\"3\" />\r\n        <option value=\"1\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Trying Storage pics and required function in login2.html\" />\r\n    <MESSAGE value=\"various touch ups\" />\r\n    <MESSAGE value=\"removing authentication emulator line\" />\r\n    <MESSAGE value=\"Trying input patterns in survey.html\" />\r\n    <MESSAGE value=\"actionphp gone\" />\r\n    <MESSAGE value=\"trying form actions\" />\r\n    <MESSAGE value=\"workspace\" />\r\n    <MESSAGE value=\"finished survey required, starting hiding myaccount on index.html\" />\r\n    <MESSAGE value=\"various fixes\" />\r\n    <MESSAGE value=\"implementing form action = javascript\" />\r\n    <MESSAGE value=\"finished form actions, implementing vanishing myaccount\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"finished form actions, implementing vanishing myaccount\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"534\" y=\"22\" key=\"#Inspections\" timestamp=\"1619734956324\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"534\" y=\"22\" key=\"#Inspections/0.0.1280.680@0.0.1280.680\" timestamp=\"1619734956324\" />\r\n    <state x=\"662\" y=\"91\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1620145013898\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"662\" y=\"91\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1620145013898\" />\r\n    <state x=\"159\" y=\"95\" key=\"FileChooserDialogImpl\" timestamp=\"1617038710915\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"159\" y=\"95\" key=\"FileChooserDialogImpl/0.0.1280.680@0.0.1280.680\" timestamp=\"1617038710915\" />\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1619735656328\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680\" timestamp=\"1619735656328\" />\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.center\" timestamp=\"1619735656328\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680\" timestamp=\"1619735656328\" />\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.left\" timestamp=\"1619735656327\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680\" timestamp=\"1619735656327\" />\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.right\" timestamp=\"1619735656328\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"620\" height=\"161\" key=\"GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680\" timestamp=\"1619735656328\" />\r\n    <state x=\"0\" y=\"79\" key=\"IDE.errors.dialog\" timestamp=\"1619733063693\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"0\" y=\"79\" key=\"IDE.errors.dialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1619733063693\" />\r\n    <state x=\"638\" y=\"64\" key=\"RollbackChangesDialog\" timestamp=\"1620145038136\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"638\" y=\"64\" key=\"RollbackChangesDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1620145038136\" />\r\n    <state x=\"490\" y=\"254\" key=\"VCS.ChangelistChooser\" timestamp=\"1617719400697\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"490\" y=\"254\" key=\"VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680\" timestamp=\"1617719400697\" />\r\n    <state x=\"137\" y=\"258\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1619994193991\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"137\" y=\"258\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1619994193991\" />\r\n    <state x=\"670\" y=\"64\" width=\"606\" height=\"616\" key=\"find.popup\" timestamp=\"1620142166609\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"670\" y=\"64\" width=\"606\" height=\"616\" key=\"find.popup/0.0.1280.680@0.0.1280.680\" timestamp=\"1620142166609\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 943aa446edb8ab4e8b555981f19830ada588d165)
++++ .idea/workspace.xml	(date 1620147491886)
+@@ -19,30 +19,123 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="changing picture sources">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/Arms.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Arms.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/Lunges-2.webp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/beet-hummus-crispy-chickpeas-subs-b705a73.webp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/bmi.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmi.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/bsc.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bsc.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/calorieCalc.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/calorieCalc.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/carb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carb.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/javascript/reveal.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/keto.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/keto.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/latraise.webp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/legs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/legs.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/nutrition.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/nutrition.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/protein.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/row.webp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shoppingCart.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/sups.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sups.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/vegan.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegan.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/vegetarian.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegetarian.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/weightlift.webp" beforeDir="false" />
++    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="various changes">
++      <change afterPath="$PROJECT_DIR$/public/Carbohydrates1.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/Lunges-2.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/Tortilla-Pizza.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/Vegan.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/applecake.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/arm.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/back.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/bcaas.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/bcaas2.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/beefburger.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/beet-hummus-crispy-chickpeas-subs-b705a73.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/bicepCurl.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/bmi.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/bolognese.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/bulkdig.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/cal.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/calorie.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/carrotcake.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/cart.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/cas.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/casein.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chest.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chia.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chickenrice.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chickensalad.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chilli.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chilliconcarne.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/chorizopasta.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/core.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/creatine.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/creatine2.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/dig.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/dumb.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/eaas.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/egg.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/eggavacado.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/fish oil.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/fishcakes.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/fishoil2.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/flapjack.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/fly.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/fries.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/fritatta.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/gobletSquat.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/greensmoothie.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/gs2.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/guac.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/hipthrust.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/imp.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/impactWhey.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/javascript/user.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/keto.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/ketoBrownies.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/ketooats.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/las.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/latraise.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/leg.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/lglut.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/lift.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/loadedCaul.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/lowCarb.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/lowcal.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/malt.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/milkshale.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/mpeaas.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/mplglut.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/mpmalt.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/muffins.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/mugcake.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/nonStim.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/nutcookies.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/nutrition.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/oats.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/omlette.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/overnightOats.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pancake.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pastasalad.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/peaprotein.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pie.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pizza.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/plank.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/porridge.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pre.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/press.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pro.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/protein.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/proteinicecream.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/proteinmugbrownie.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/pullup.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/row.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/salmon.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/schezchick.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/shoulder.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/smoothie.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/soup.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/southwesternrice.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/soyprotein.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/splitsquat.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/sq.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/squat.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/stirfry.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/straight-leg-raise.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/sub.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/sup.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/sweetpotatoes.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/tofu.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/tortillapizza.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/tpizza.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/veg.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/veganchilli.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/veganultimatechillirecipeh1.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/vegcurry.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/vegetable_stir_fry.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/veggy.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/weightlift.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/public/zucchini.jpg" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: public/javascript/user.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/javascript/user.js	(date 1620147186627)
++++ public/javascript/user.js	(date 1620147186627)
+@@ -0,0 +1,92 @@
++function getUser(units){
++    var xhr = new XMLHttpRequest();
++	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getUser');
++
++// Track the state changes of the request.
++    xhr.onreadystatechange = function () {
++        var DONE = 4; // readyState 4 means the request is done.
++        var OK = 200; // status 200 is a successful return.
++        if (xhr.readyState === DONE) {
++            if (xhr.status === OK) {
++				console.log(responseUser)
++				var json = JSON.parse(xhr.responseText);
++				var yourData = json.Age;
++				var yourGender = json.Gender;
++				var yourFName = json.FirstName;
++				var yourLName = json.LastName;
++				var yourGoal = json.Goal;
++				var yourHeight = json.PostHeight;
++				var yourWeight = json.Weightlbs;
++				var yourActivityLevel = json.ActivityLevel;
++				var yourInches = json.PostInches;
++				var yourWeightkg = json.Weightkg;
++				
++				
++				
++				if(units == "imperial"){
++					responseUser.innerHTML = "First Name: " +yourFName +"<br>" + "<br>" + "Last Name: " +yourLName +"<br>" + "<br>" +"Age: " +yourData +"<br>" + "<br>"+"Gender: " +yourGender +"<br>" + "<br>" +"Height: " + yourHeight + " " + "feet" +" " + yourInches + " " + "inches" +"<br>" + "<br>" + "Weight: " + yourWeight +" " + "lbs"+"<br>" + "<br>" + "Goal: " + yourGoal +"<br>" + "<br>" +"Activity Level: " + yourActivityLevel +"<br>" + "<br>";
++				} else if(units == "metric"){
++					responseUser.innerHTML = "First Name: " +yourFName +"<br>" + "<br>" + "Last Name: " +yourLName +"<br>" + "<br>" +"Age: " +yourData +"<br>" + "<br>"+"Gender: " +yourGender +"<br>" + "<br>" +"Height: " + yourHeight + " " + "cm" +"<br>" + "<br>" + "Weight: " + yourWeightkg +" " + "kg"+"<br>" + "<br>" + "Goal: " + yourGoal +"<br>" + "<br>" +"Activity Level: " + yourActivityLevel +"<br>" + "<br>";
++				}
++				
++            } else {
++			responseUser.innerHTML=(window.location.href = "/Unauthorized.html")
++            console.log('Error: ' + xhr.status); // An error occurred during the request.
++			}
++        }
++    };
++    // Set the Authorization header
++    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
++    xhr.send(null);
++}
++
++function checkUnits(myCallback){
++    var xhr = new XMLHttpRequest();
++	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
++
++    xhr.onreadystatechange = function () {
++        var DONE = 4; // readyState 4 means the request is done.
++        var OK = 200; // status 200 is a successful return.
++        if (xhr.readyState === DONE) {
++            if (xhr.status === OK) {
++				console.log(xhr.responseText)
++				myCallback(xhr.responseText)
++            } else {
++            console.log('Error: ' + xhr.status); // An error occurred during the request.
++			window.location.href = "/Unauthorized.html"
++			}
++        }
++    };
++    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
++    xhr.send(null);
++}
++
++function logout(){
++
++firebase.auth().signOut().then(() => {
++    console.log("Sign out successful");
++    // Reset cookie
++    document.cookie = "accessToken= ";
++    // Redirect to the home page
++    window.location.href = "/index.html"
++    // Sign-out successful.
++}).catch((error) => {
++    // An error happened.
++});
++}
++
++// W3C Schools
++function getCookie(cname) {
++    var name = cname + "=";
++    var ca = document.cookie.split(';');
++    for(var i = 0; i < ca.length; i++) {
++        var c = ca[i];
++        while (c.charAt(0) == ' ') {
++            c = c.substring(1);
++        }
++        if (c.indexOf(name) == 0) {
++            return c.substring(name.length, c.length);
++        }
++    }
++    return "";
++}
+\ No newline at end of file

@@ -19,24 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/pie.jpg" afterDir="false" />
+    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="various changes in FItnessAppv2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bcaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bcaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/creatine.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/creatine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/digEnz.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/digEnz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fishoil.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/fishoil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lglut.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lglut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/logIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logInOriginal.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/logInOriginal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maltodex.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/maltodex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/myAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/myAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pre.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/protein.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/proteinsupp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/proteinsupp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +33,18 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="FitnessAppv2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1oX5PKFwqBVa8qCszZ5s2dftWYO" />
   <component name="ProjectLevelVcsManager">
@@ -68,7 +60,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Nicolesapp" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +69,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\harry\Desktop\Second Year\Software Engineering I\OneStopFitness\functions" />
+      <recent name="C:\Users\harry\Desktop\Second Year\Software Engineering I\OneStopFitness" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,11 +92,120 @@
       <workItem from="1617729991395" duration="6008000" />
       <workItem from="1618675368600" duration="8828000" />
       <workItem from="1619167355110" duration="15736000" />
+      <workItem from="1619701012211" duration="12388000" />
+      <workItem from="1619735711700" duration="1748000" />
+      <workItem from="1619911918076" duration="466000" />
+      <workItem from="1619961433424" duration="14385000" />
+      <workItem from="1619994525827" duration="7767000" />
+      <workItem from="1620038296015" duration="3253000" />
+      <workItem from="1620130068093" duration="5626000" />
     </task>
+    <task id="LOCAL-00001" summary="Trying Storage pics and required function in login2.html">
+      <created>1619702549008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619702549008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trying Storage pics and required function in login2.html">
+      <created>1619703025793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619703025793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="various touch ups">
+      <created>1619730166281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619730166281</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removing authentication emulator line">
+      <created>1619730777071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619730777071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Trying input patterns in survey.html">
+      <created>1619732265943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619732265943</updated>
+    </task>
+    <task id="LOCAL-00006" summary="actionphp gone">
+      <created>1619734075244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619734075244</updated>
+    </task>
+    <task id="LOCAL-00007" summary="trying form actions">
+      <created>1619735137641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619735137641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="workspace">
+      <created>1619735757939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619735757939</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finished survey required, starting hiding myaccount on index.html">
+      <created>1619966885087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619966885087</updated>
+    </task>
+    <task id="LOCAL-00010" summary="various fixes">
+      <created>1619992434456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619992434456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="various fixes">
+      <created>1619994213127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619994213127</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implementing form action = javascript">
+      <created>1619997313586</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619997313586</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finished form actions, implementing vanishing myaccount">
+      <created>1620003238796</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620003238796</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -112,15 +221,79 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Trying Storage pics and required function in login2.html" />
+    <MESSAGE value="various touch ups" />
+    <MESSAGE value="removing authentication emulator line" />
+    <MESSAGE value="Trying input patterns in survey.html" />
+    <MESSAGE value="actionphp gone" />
+    <MESSAGE value="trying form actions" />
+    <MESSAGE value="workspace" />
+    <MESSAGE value="finished survey required, starting hiding myaccount on index.html" />
+    <MESSAGE value="various fixes" />
+    <MESSAGE value="implementing form action = javascript" />
+    <MESSAGE value="finished form actions, implementing vanishing myaccount" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished form actions, implementing vanishing myaccount" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="534" y="22" key="#Inspections" timestamp="1619734956324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="534" y="22" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1619734956324" />
+    <state x="662" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620145013898">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="662" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1620145013898" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1620149960690">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1620149960690" />
     <state x="159" y="95" key="FileChooserDialogImpl" timestamp="1617038710915">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="159" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1617038710915" />
+    <state width="620" height="161" key="GridCell.Tab.0.bottom" timestamp="1619735656328">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="620" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619735656328" />
+    <state width="620" height="161" key="GridCell.Tab.0.center" timestamp="1619735656328">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="620" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619735656328" />
+    <state width="620" height="161" key="GridCell.Tab.0.left" timestamp="1619735656327">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="620" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619735656327" />
+    <state width="620" height="161" key="GridCell.Tab.0.right" timestamp="1619735656328">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="620" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619735656328" />
+    <state x="0" y="79" key="IDE.errors.dialog" timestamp="1619733063693">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="79" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1619733063693" />
+    <state x="116" y="0" width="1164" height="635" key="MergeDialog" timestamp="1620153449837">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="116" y="0" width="1164" height="635" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1620153449837" />
+    <state x="638" y="64" key="RollbackChangesDialog" timestamp="1620145038136">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="638" y="64" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1620145038136" />
     <state x="490" y="254" key="VCS.ChangelistChooser" timestamp="1617719400697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="490" y="254" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1617719400697" />
+    <state x="137" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619994193991">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="137" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1619994193991" />
+    <state x="670" y="64" width="606" height="616" key="find.popup" timestamp="1620142166609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="670" y="64" width="606" height="616" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1620142166609" />
+    <state x="364" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1620153402185">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="364" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1620153402185" />
   </component>
 </project>
