@@ -1,4 +1,3 @@
-
 //var height;
 //var bmr;
 
@@ -30,16 +29,10 @@ function getUser(units){
 			}
         }
     };
-    // Set the Authorization header
-    xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
-    xhr.send(null);
-}
 
 function getUserCalories(units,callback2,mycallback3){
     var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/getUser');
-
-// Track the state changes of the request.
     xhr.onreadystatechange = function () {
         var DONE = 4; // readyState 4 means the request is done.
         var OK = 200; // status 200 is a successful return.
@@ -66,16 +59,13 @@ function getUserCalories(units,callback2,mycallback3){
 			}
         }
     };
-    // Set the Authorization header
     xhr.setRequestHeader('Authorization', 'Bearer ' + getCookie('accessToken'))
     xhr.send(null);
 }
 
-
 function checkUnits3(myCallback){
     var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
-
     xhr.onreadystatechange = function () {
         var DONE = 4; // readyState 4 means the request is done.
         var OK = 200; // status 200 is a successful return.
@@ -96,8 +86,7 @@ function checkUnits3(myCallback){
 function checkUnitsCalories(myCallback,myCallback2,myCallback3){
     var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://us-central1-fitnessapp-7a208.cloudfunctions.net/checkUnits');
-
-    xhr.onreadystatechange = function () {
+	xhr.onreadystatechange = function () {
         var DONE = 4; // readyState 4 means the request is done.
         var OK = 200; // status 200 is a successful return.
         if (xhr.readyState === DONE) {
@@ -105,8 +94,8 @@ function checkUnitsCalories(myCallback,myCallback2,myCallback3){
 				console.log(xhr.responseText)
 				myCallback(xhr.responseText,myCallback2,myCallback3)
             } else {
-            console.log('Error: ' + xhr.status); // An error occurred during the request.
-			document.getElementById("bmr").innerHTML = "Please login to calculate your BMR and TDEE";
+				console.log('Error: ' + xhr.status); // An error occurred during the request.
+				document.getElementById("bmr").innerHTML = "Please login to calculate your BMR and TDEE";
 			}
         }
     };
@@ -140,8 +129,6 @@ function calculateBMI(units,weight,height,inches) {
 	document.getElementById("bmi").innerHTML = "Your BMI is: " + bmi;
 }
 
-
-
 // W3C Schools
 function getCookie(cname) {
     var name = cname + "=";
@@ -157,6 +144,7 @@ function getCookie(cname) {
     }
     return "";
 }
+
 
 function calculateBMR(weight,units,height,inches,age,gender,activityLevel,myCallback3){
 	var bmr;
@@ -211,4 +199,4 @@ function calculateTDEE(activityLevel,bmr){
 	}
 	tdee = Math.round(tdee);
 	document.getElementById("tdee").innerHTML = "Your TDEE is: " + tdee;
-}
+}}
