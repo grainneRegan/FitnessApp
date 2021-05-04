@@ -20,8 +20,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="various changes in FItnessAppv2">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2021_19_36__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2021_19_36__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Carbohydrates1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Tortilla-Pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Vegan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/applecake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/arm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bcaas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bcaas2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/beefburger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bicepCurl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bolognese.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bulkdig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/calorie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/carrotcake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/casein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chickenrice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chickensalad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chilli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chilliconcarne.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chorizopasta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/core.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/creatine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/creatine2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eaas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/egg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eggavacado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fish oil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fishcakes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fishoil2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flapjack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fly.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fries.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fritatta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gobletSquat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/greensmoothie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gs2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/guac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hipthrust.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/impactWhey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ketoBrownies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ketooats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/las.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/leg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lglut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/loadedCaul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lowCarb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lowcal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/malt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/milkshale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mpeaas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mplglut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mpmalt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/muffins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mugcake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nonStim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nutcookies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nutrition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/oats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/omlette.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/overnightOats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pancake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pastasalad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/peaprotein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/porridge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/press.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/protein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/proteinicecream.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/proteinmugbrownie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pullup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/salmon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/schezchick.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shoulder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/smoothie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/soup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/southwesternrice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/soyprotein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/splitsquat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/squat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stirfry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/straight-leg-raise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sweetpotatoes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tofu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tortillapizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tpizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/veg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/veganchilli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/veganultimatechillirecipeh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vegcurry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vegetable_stir_fry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/veggy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/zucchini.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +152,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="FitnessAppv2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -191,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620003238796</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="various changes in FItnessAppv2">
+      <created>1620153636221</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620153636221</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,17 +351,18 @@
     <MESSAGE value="various fixes" />
     <MESSAGE value="implementing form action = javascript" />
     <MESSAGE value="finished form actions, implementing vanishing myaccount" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished form actions, implementing vanishing myaccount" />
+    <MESSAGE value="various changes in FItnessAppv2" />
+    <option name="LAST_COMMIT_MESSAGE" value="various changes in FItnessAppv2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="534" y="22" key="#Inspections" timestamp="1619734956324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="534" y="22" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1619734956324" />
-    <state x="662" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620145013898">
+    <state x="662" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620154322172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="662" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1620145013898" />
+    <state x="662" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1620154322172" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1620149960690">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
