@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="unversioned files and Unauthorized.html">
+    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="finishing up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/carb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fishoil.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/fishoil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lglut.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lglut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/maltodex.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/maltodex.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620175734650</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finishing up">
+      <created>1620176389802</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620176389802</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +274,8 @@
     <MESSAGE value="Caoimhes Code with pictures and validation done and titles done" />
     <MESSAGE value="unversioned files" />
     <MESSAGE value="unversioned files and Unauthorized.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="unversioned files and Unauthorized.html" />
+    <MESSAGE value="finishing up" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="534" y="22" key="#Inspections" timestamp="1619734956324">
@@ -332,5 +342,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1620175472226" />
+    <state x="694" y="272" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1620176498722">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="694" y="272" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1620176498722" />
   </component>
 </project>
