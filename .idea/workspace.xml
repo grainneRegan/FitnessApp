@@ -19,48 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="Caoimhes Code with pictures and validation done">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2021_19_36__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2021_19_36__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="unversioned files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Arms.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Arms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Chest.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Chest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Core.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Core.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Lunges-2.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Unauthorized.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Unauthorized.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bcaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bcaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/beet-hummus-crispy-chickpeas-subs-b705a73.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bmi.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bsc.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bsc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/calorieCalc.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/calorieCalc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/carb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/creatine.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/creatine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/digEnz.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/digEnz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fishoil.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/fishoil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/keto.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/keto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/latraise.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/legs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/legs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lglut.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lglut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/logIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/login2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/login2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lowcal.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lowcal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lowcarb.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lowcarb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maltodex.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/maltodex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/nutrition.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/nutrition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/overnightOats.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pre.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/protein.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/proteinsupp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/proteinsupp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/row.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shoppingCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sups.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/sups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vegan.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vegetarian.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vegetarian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/weightlift.webp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620153636221</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Caoimhes Code with pictures and validation done and titles done">
+      <created>1620174982743</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620174982743</updated>
+    </task>
+    <task id="LOCAL-00016" summary="unversioned files">
+      <created>1620175287352</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620175287352</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +255,9 @@
     <MESSAGE value="finished form actions, implementing vanishing myaccount" />
     <MESSAGE value="various changes in FItnessAppv2" />
     <MESSAGE value="Caoimhes Code with pictures and validation done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caoimhes Code with pictures and validation done" />
+    <MESSAGE value="Caoimhes Code with pictures and validation done and titles done" />
+    <MESSAGE value="unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="unversioned files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="534" y="22" key="#Inspections" timestamp="1619734956324">
@@ -343,5 +320,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="364" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1620170162292" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1620175472226">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1620175472226" />
   </component>
 </project>
