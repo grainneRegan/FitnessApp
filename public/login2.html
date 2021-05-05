@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>OneStopFitness - Login</title>
     <!-- Favicon-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -55,27 +55,29 @@
 </header>
 
 <br>
+<form action="javascript:login2();reveal();">
 <div class="container">
 	<div class="row">
 	<div class="col">
     <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
         
     </div>
 	</div>
 	<div class="col">
     <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input required type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
     </div>
 	</div>
 	</div>
 </div>
 	
 <br>
-<br>	
-<button onclick="login2()" class="btn btn-primary">Continue</button>
+<br>
+<input type = "submit" class = "btn btn-primary"value="Sign In">
+</form>
 <br>
 <br>
 <br>	
@@ -110,5 +112,6 @@
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js?useEmulator=true"></script>
 <script src="javascript/login2.js"></script>
+<script src="javascript/reveal.js"></script>
 </body>
 </html>
